@@ -37,7 +37,7 @@ permissions:
 
 jobs:
   build-package:
-    uses: mip-org/mip_channel_tools/.github/workflows/build-package.yml@main
+    uses: mip-org/mip_channel_tools/.github/workflows/build-package.yml@mep-0010
     with:
       package_path: ${{ inputs.package_path }}
       architecture: ${{ inputs.architecture }}
